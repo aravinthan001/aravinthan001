@@ -2,27 +2,32 @@ name: Generate Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight UTC
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout repository
+      # Step 1 — Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Generate Snake SVG files
-      - name: Generate Snake Animation
-        uses: Platane/snk/svg-only@v3
+      # Step 2 — Generate snake SVGs (light & dark)
+      - name: Generate Snake (light)
+        uses: Platane/snk@v3
         with:
           github_user_name: aravinthan001
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          svg_out_path: dist/github-snake.svg
 
-      # Step 3: Push to output branch
+      - name: Generate Snake (dark)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: aravinthan001
+          svg_out_path: dist/github-snake-dark.svg
+          palette: github-dark
+
+      # Step 3 — Push snake to output branch
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v2
         with:
