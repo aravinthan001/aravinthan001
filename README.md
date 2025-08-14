@@ -43,13 +43,13 @@ I thrive at the intersection of **web development** and **embedded systems**, tu
 
 ### 📊 GitHub Stats
 
-![Aravinthan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)
+![Aravinthan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aravinthan001&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aravinthan001&layout=compact&theme=radical)
 
 ---
 
 ### 📫 Connect with Me
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aravinthan001)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)  
 📧 **Email:** aaravinthan001@gmail.com  
 
