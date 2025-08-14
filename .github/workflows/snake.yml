@@ -2,34 +2,32 @@ name: Generate Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight UTC
-  workflow_dispatch: # Allow manual run
+    - cron: "0 0 * * *" # every day at midnight UTC
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Ensure dist exists
+      - name: Create dist folder
         run: mkdir -p dist
 
-      - name: Generate Snake (Light)
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: aravinthan001
-          svg_out_path: dist/github-snake.svg
-
-      - name: Generate Snake (Dark)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: aravinthan001
-          svg_out_path: dist/github-snake-dark.svg
-          palette: github-dark
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push Snake to output branch
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
