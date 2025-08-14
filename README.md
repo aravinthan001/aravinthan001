@@ -56,6 +56,7 @@ I thrive at the intersection of **web development** and **embedded systems**, tu
   <img alt="github-snake" src="https://raw.githubusercontent.com/aravinthan001/aravinthan001/output/github-snake.svg" />
 </picture>
 
+
 ---
 
 ### 📫 Connect with Me
