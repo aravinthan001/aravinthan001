@@ -3,7 +3,7 @@ name: Generate Snake Game
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every day at midnight UTC
-  workflow_dispatch: # Allows manual run
+  workflow_dispatch: # Allow manual run
 
 jobs:
   build:
@@ -24,6 +24,9 @@ jobs:
           github_user_name: aravinthan001
           svg_out_path: dist/github-snake-dark.svg
           palette: github-dark
+
+      - name: Ensure dist exists
+        run: mkdir -p dist
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v2
