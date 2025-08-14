@@ -44,7 +44,8 @@ I thrive at the intersection of **web development** and **embedded systems**, tu
 ### 📊 GitHub Stats
 
 ![Aravinthan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aravinthan001&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aravinthan001&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aravinthan001&layout=compact&theme=radical)  
+![GitHub Streak](https://streak-stats.demolab.com?user=aravinthan001&theme=radical&hide_border=true)
 
 ---
 
@@ -55,7 +56,6 @@ I thrive at the intersection of **web development** and **embedded systems**, tu
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aravinthan001/aravinthan001/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/aravinthan001/aravinthan001/output/github-snake.svg" />
 </picture>
-
 
 ---
 
