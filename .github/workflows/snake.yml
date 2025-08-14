@@ -12,6 +12,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Ensure dist exists
+        run: mkdir -p dist
+
       - name: Generate Snake (Light)
         uses: Platane/snk@v3
         with:
@@ -24,9 +27,6 @@ jobs:
           github_user_name: aravinthan001
           svg_out_path: dist/github-snake-dark.svg
           palette: github-dark
-
-      - name: Ensure dist exists
-        run: mkdir -p dist
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v2
