@@ -54,7 +54,8 @@ I thrive at the intersection of **web development** and **embedded systems**, tu
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aravinthan001/aravinthan001/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aravinthan001/aravinthan001/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/aravinthan001/aravinthan001/output/github-snake.svg" />
+ ![github-snake](https://raw.githubusercontent.com/aravinthan001/aravinthan001/output/github-contribution-grid-snake.svg)
+
 </picture>
 
 ---
